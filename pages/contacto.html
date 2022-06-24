@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container__contact">
+        <header class="header">
+            <div class="header__company">
+                <a href="../index.html">
+                    <h1>el galpon minero</h1>
+                </a>
+            </div>
+            <nav class="header__navbar">
+                <div id="toggle-menu" class="toggle-menu">
+                    <label for="toggle-menu__checkbox">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+                <input type="checkbox" class="toggle-menu__checkbox" id="toggle-menu__checkbox">
+                <ul id="main-menu" class="main-menu">
+                  <li><a href="../index.html">inicio</a></li>
+                  <li><a href="../pages/sobrenosotros.html">sobre nosotros</a></li>
+                  <li><a href="../pages/blog.html">blog</a></li>
+                  <li><a href="../pages/servicios.html">servicios</a></li>
+                  <li><a href="./contacto.html" class="activo">contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main__contact">
+            <div class="main__contact__image">
+                <h2>contactanos</h2>
+            </div>
+            <h3>nuestra oficina</h3>
+            <ul>
+                <li>telefono: +549 (2241) 451825</li>
+                <li>telefono: +549 (2241) 532031</li>
+                <li>email: elgalponminero@gmail.com</li>
+            </ul>
+            <div class="contact__maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.2200145772126!2d-58.016818485159845!3d-35.57296101692886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95980d51151afde9%3A0x69e420d7cb3c20ab!2sSIMM%20Computacion%20%26%20Electronica!5e0!3m2!1ses-419!2sar!4v1655730480298!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+        <section class="section__contact">
+            <h3 class="form__title">Completa los datos y nos pondremos en contacto</h3>
+            <form action="#" class="form__contact">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="text" name="lastname" placeholder="Apellido" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="comment" cols="30" rows="10" placeholder="En que podemos ayudarte"></textarea>
+                <button type="submit" class="details__button">enviar</button>
+            </form>
+        </section>
+        <footer class="footer">
+            <span class="footer__name">coded by Jonatan Bustamante</span>
+        </footer>
+    </div>
+</body>
+</html>
