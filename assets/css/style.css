@@ -52,7 +52,6 @@ body{
     text-align: center;
     margin-top: 29px;
     left: 0;
-    /* transform: translateX(-250%); */
     display: none;
     transition: all .5s;
     z-index: 1;
@@ -83,7 +82,7 @@ body{
     bottom: -5px;
     width: 100%;
     right: 0;
-}
+}   
 
 .header__navbar ul li a::after{
     bottom: -10px;
